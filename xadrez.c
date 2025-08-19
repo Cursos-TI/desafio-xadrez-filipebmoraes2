@@ -1,4 +1,4 @@
-//Jogo de xadrez iniciante
+//Jogo de xadrez aventureiro
 #include <stdio.h>
 
 int main() {
@@ -19,5 +19,13 @@ int main() {
         printf("Rainha esquerda...\n");
         passoRainha++;
     } while (passoRainha < 8);
+    printf("----------------------------------------\n"); //linha entre a rainha e o cavalo
+    // passos do cavalo
+    for (int passoHorizontal = 0; passoHorizontal < 1; passoHorizontal++) {
+        for (int PassoVertical = 0; PassoVertical < 2; PassoVertical++) {
+            printf("Cavalo baixo\n");
+        }
+        printf("Cavalo esquerda\n");
+    }
     return 0;
 }
